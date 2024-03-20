@@ -3,16 +3,8 @@
 Pada tugas ini saya mencoba membangun model machine learning dengan menggunakan SVM. Saya menggunakan artikel [ini](https://medium.com/@youness.habach/support-vector-machines-svm-explanation-mini-project-9d4b4962be52) sebagai referensi dalam mengerjakan tugas 2 mata kuliah machine learning. 
 
 ## About Me
-Nama: Muhammad Farhan                                                                         
-NPM: 210810701050
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install depedencies.
-
-```bash
-pip install -r requirements.txt
-```
+Nama: Marlina                                                                        
+NPM: 210810701009
 
 ## Library
 * Numpy
@@ -43,16 +35,23 @@ Label:
 
 ### Support Vector Regresion (SVR)
 
-Source dataset: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant
+Source dataset: https://www.kaggle.com/datasets/mohannapd/mobile-price-prediction/data
 
 Atribut:
-* Ambient variables Temperature (AT): Nilai rata-rata dari temperature per jam
-* Ambient Pressure (AP): Nilai rata-rata dari Tekanan Sekitar
-* Relative Humidity (RH): Nilai rata-rata dari Kelembaban relatif
-* Exhaust Vacuum (V): Nilai rata-rata dari zat yang dibuang
-
-Label:
-* Electrical energy output (EP): Listrik yang dihasilkan per jam 
+- **Product_id**: Merupakan identifikasi unik untuk setiap produk.
+- **Price**: Merupakan harga produk dalam satuan tertentu (mungkin dalam mata uang tertentu).
+- **Sale**: Mungkin merupakan penjualan atau jumlah penjualan produk tersebut.
+- **weight**: Merupakan berat produk, umumnya dalam satuan tertentu (misalnya gram).
+- **resolution**: Merupakan resolusi layar produk.
+- **ppi**: Pixels Per Inch (PPI) merupakan ukuran kepadatan piksel layar, yang dapat mempengaruhi kualitas tampilan.
+- **cpu core**: Jumlah inti (core) pada prosesor.
+- **cpu freq**: Frekuensi prosesor dalam satuan tertentu (mungkin GHz).
+- **internal mem**: Merupakan ukuran memori internal produk dalam satuan tertentu (misalnya GB).
+- **ram**: Merupakan ukuran memori RAM produk dalam satuan tertentu (misalnya GB).
+- **RearCam**: Resolusi kamera belakang produk.
+- **Front_Cam**: Resolusi kamera depan produk.
+- **battery**: Kapasitas baterai produk dalam satuan tertentu (misalnya mAh).
+- **thickness**: Ketebalan produk dalam satuan tertentu (misalnya cm).
 
 
 
